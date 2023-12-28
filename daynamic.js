@@ -12,8 +12,8 @@ function userData(data) {
     userDiv.innerHTML = `
     <h4>User Id: ${user.id} </h4>
     <h3>Name: ${user.name} </h3>
-    <p>Name: ${user.email} </p>
-    <p>Email: ${user.body} </p>
+    <p>Email: ${user.email} </p>
+    <p>Discription: ${user.body} </p>
     `;
     container.appendChild(userDiv);
     userDiv.classList.add("bg-color");
